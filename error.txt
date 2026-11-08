@@ -1,0 +1,461 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< com.qatestsoft:QATestSoft >----------------------
+[INFO] Building QATestSoft 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Loaded 24406 auto-discovered prefixes for remote repository central (prefixes-central.txt)
+[INFO] Loaded 64 auto-discovered prefixes for remote repository apache.snapshots (prefixes-apache.snapshots.txt)
+[INFO] 
+[INFO] --- clean:3.5.0:clean (default-clean) @ QATestSoft ---
+[INFO] Deleting /workspaces/QATestSoft/target
+[INFO] 
+[INFO] --- resources:3.5.0:resources (default-resources) @ QATestSoft ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ QATestSoft ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 67 source files with javac [debug target 17] to target/classes
+[INFO] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/utils/FieldInputUtils.java: /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/utils/FieldInputUtils.java uses or overrides a deprecated API.
+[INFO] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/utils/FieldInputUtils.java: Recompile with -Xlint:deprecation for details.
+[INFO] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/common/PropertiesParser.java: Some input files use unchecked or unsafe operations.
+[INFO] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/common/PropertiesParser.java: Recompile with -Xlint:unchecked for details.
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] location of system modules is not set in conjunction with -source 17
+  not setting the location of system modules may lead to class files that cannot run on JDK 17
+    --release 17 is recommended instead of -source 17 -target 17 because it sets the location of system modules automatically
+[INFO] 1 warning
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/common/StringUtils.java:[9,64] package org.apache.commons.lang3 does not exist
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/common/XetaCommons.java:[9,24] package org.apache.log4j does not exist
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/common/XetaCommons.java:[10,24] package org.apache.log4j does not exist
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/common/XetaCommons.java:[11,28] package org.apache.log4j.xml does not exist
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/common/XetaCommons.java:[24,40] cannot find symbol
+  symbol:   class Level
+  location: class de.telekom.simple.ta.common.XetaCommons
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/testdata/Users.java:[12,18] package org.testng does not exist
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/testdata/model/AbstractXLSIO.java:[10,43] package org.apache.poi.openxml4j.exceptions does not exist
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/testdata/model/AbstractXLSIO.java:[11,35] package org.apache.poi.ss.usermodel does not exist
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/testdata/model/AbstractXLSIO.java:[12,35] package org.apache.poi.ss.usermodel does not exist
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/testdata/model/AbstractXLSIO.java:[13,35] package org.apache.poi.ss.usermodel does not exist
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/testdata/model/AbstractXLSIO.java:[14,35] package org.apache.poi.ss.usermodel does not exist
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/testdata/model/AbstractXLSIO.java:[15,35] package org.apache.poi.ss.usermodel does not exist
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/testdata/model/AbstractXLSIO.java:[16,35] package org.apache.poi.ss.usermodel does not exist
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/testdata/model/AbstractXLSIO.java:[17,35] package org.apache.poi.ss.usermodel does not exist
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/testdata/model/AbstractXLSIO.java:[18,35] package org.apache.poi.ss.usermodel does not exist
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/testdata/model/AbstractXLSIO.java:[24,15] cannot find symbol
+  symbol:   class Workbook
+  location: class de.telekom.simple.ta.testdata.model.AbstractXLSIO
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/testdata/model/AbstractXLSIO.java:[25,15] cannot find symbol
+  symbol:   class FormulaEvaluator
+  location: class de.telekom.simple.ta.testdata.model.AbstractXLSIO
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/testdata/model/AbstractXLSIO.java:[26,15] cannot find symbol
+  symbol:   class Sheet
+  location: class de.telekom.simple.ta.testdata.model.AbstractXLSIO
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/testdata/model/AbstractXLSIO.java:[35,41] cannot find symbol
+  symbol:   class Cell
+  location: class de.telekom.simple.ta.testdata.model.AbstractXLSIO
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/testdata/model/AbstractXLSIO.java:[63,35] cannot find symbol
+  symbol:   class Cell
+  location: class de.telekom.simple.ta.testdata.model.AbstractXLSIO
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/testdata/model/XLSWriter.java:[5,35] package org.apache.poi.ss.usermodel does not exist
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/testdata/model/XLSWriter.java:[6,35] package org.apache.poi.ss.usermodel does not exist
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/testdata/model/AbstractXLSIO.java:[146,15] cannot find symbol
+  symbol:   class Row
+  location: class de.telekom.simple.ta.testdata.model.AbstractXLSIO
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/testdata/model/AbstractXLSIO.java:[168,12] cannot find symbol
+  symbol:   class Sheet
+  location: class de.telekom.simple.ta.testdata.model.AbstractXLSIO
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/testdata/model/AbstractXLSIO.java:[172,12] cannot find symbol
+  symbol:   class Workbook
+  location: class de.telekom.simple.ta.testdata.model.AbstractXLSIO
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/testdata/model/XLSTestDataReader.java:[7,35] package org.apache.poi.ss.usermodel does not exist
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/testdata/model/XLSTestDataReader.java:[8,35] package org.apache.poi.ss.usermodel does not exist
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/testdata/model/XLSTestDataReader.java:[35,35] cannot find symbol
+  symbol:   class Row
+  location: class de.telekom.simple.ta.testdata.model.XLSTestDataReader
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/testdata/model/XLSTestDataReader.java:[35,45] cannot find symbol
+  symbol:   class Row
+  location: class de.telekom.simple.ta.testdata.model.XLSTestDataReader
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/utils/FileUtils.java:[18,25] package de.idyl.winzipaes does not exist
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/utils/FileUtils.java:[19,30] package de.idyl.winzipaes.impl does not exist
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/utils/FileUtils.java:[20,25] package net.lingala.zip4j does not exist
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/utils/FileUtils.java:[21,35] package net.lingala.zip4j.exception does not exist
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/utils/FileUtils.java:[22,31] package net.lingala.zip4j.model does not exist
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/utils/FileUtils.java:[25,59] package org.apache.commons.io does not exist
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/utils/FileUtils.java:[125,60] cannot find symbol
+  symbol:   class ZipException
+  location: class de.telekom.simple.ta.utils.FileUtils
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/utils/FileUtils.java:[129,39] cannot find symbol
+  symbol:   class ZipParameters
+  location: class de.telekom.simple.ta.utils.FileUtils
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/utils/FileUtils.java:[129,80] cannot find symbol
+  symbol:   class ZipException
+  location: class de.telekom.simple.ta.utils.FileUtils
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/utils/FileUtils.java:[148,67] cannot find symbol
+  symbol:   class ZipException
+  location: class de.telekom.simple.ta.utils.FileUtils
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/utils/FileUtils.java:[152,39] cannot find symbol
+  symbol:   class ZipParameters
+  location: class de.telekom.simple.ta.utils.FileUtils
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/utils/FileUtils.java:[152,87] cannot find symbol
+  symbol:   class ZipException
+  location: class de.telekom.simple.ta.utils.FileUtils
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/utils/FileUtils.java:[187,63] cannot find symbol
+  symbol:   class ZipException
+  location: class de.telekom.simple.ta.utils.FileUtils
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/utils/FileUtils.java:[191,76] cannot find symbol
+  symbol:   class ZipException
+  location: class de.telekom.simple.ta.utils.FileUtils
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/utils/UserSetNumberPool.java:[5,18] package org.testng does not exist
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/utils/UserSetNumberPool.java:[6,18] package org.testng does not exist
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/utils/UserSetNumberPool.java:[85,39] cannot find symbol
+  symbol:   class ITestContext
+  location: class de.telekom.simple.ta.utils.UserSetNumberPool
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/common/XetaCommons.java:[25,25] package org.apache.log4j does not exist
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/common/XetaCommons.java:[31,29] package org.apache.log4j does not exist
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/common/XetaCommons.java:[31,60] package org.apache.log4j does not exist
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/common/XetaCommons.java:[32,13] cannot find symbol
+  symbol:   class Level
+  location: class de.telekom.simple.ta.common.XetaCommons
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/common/XetaCommons.java:[32,26] cannot find symbol
+  symbol:   variable Level
+  location: class de.telekom.simple.ta.common.XetaCommons
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/common/XetaCommons.java:[52,17] cannot find symbol
+  symbol:   variable DOMConfigurator
+  location: class de.telekom.simple.ta.common.XetaCommons
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/common/XetaCommons.java:[54,17] cannot find symbol
+  symbol:   variable BasicConfigurator
+  location: class de.telekom.simple.ta.common.XetaCommons
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/testdata/Users.java:[94,13] cannot find symbol
+  symbol:   variable Assert
+  location: class de.telekom.simple.ta.testdata.Users
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/testdata/model/AbstractXLSIO.java:[41,25] cannot find symbol
+  symbol:   variable DateUtil
+  location: class de.telekom.simple.ta.testdata.model.AbstractXLSIO
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/testdata/model/AbstractXLSIO.java:[57,17] switch has both boolean values and a default label
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/testdata/model/AbstractXLSIO.java:[67,13] cannot find symbol
+  symbol:   class DataFormatter
+  location: class de.telekom.simple.ta.testdata.model.AbstractXLSIO
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/testdata/model/AbstractXLSIO.java:[67,38] cannot find symbol
+  symbol:   class DataFormatter
+  location: class de.telekom.simple.ta.testdata.model.AbstractXLSIO
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/testdata/model/AbstractXLSIO.java:[109,37] cannot find symbol
+  symbol:   variable WorkbookFactory
+  location: class de.telekom.simple.ta.testdata.model.AbstractXLSIO
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/testdata/model/AbstractXLSIO.java:[112,26] cannot find symbol
+  symbol:   class InvalidFormatException
+  location: class de.telekom.simple.ta.testdata.model.AbstractXLSIO
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/testdata/model/AbstractXLSIO.java:[131,33] cannot find symbol
+  symbol:   variable WorkbookFactory
+  location: class de.telekom.simple.ta.testdata.model.AbstractXLSIO
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/testdata/model/AbstractXLSIO.java:[134,22] cannot find symbol
+  symbol:   class InvalidFormatException
+  location: class de.telekom.simple.ta.testdata.model.AbstractXLSIO
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/testdata/model/AbstractXLSIO.java:[149,9] cannot find symbol
+  symbol:   class Row
+  location: class de.telekom.simple.ta.testdata.model.AbstractXLSIO
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/testdata/model/AbstractXLSIO.java:[150,9] cannot find symbol
+  symbol:   class Cell
+  location: class de.telekom.simple.ta.testdata.model.AbstractXLSIO
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/testdata/model/AbstractXLSIO.java:[155,34] cannot find symbol
+  symbol:   class Row
+  location: class de.telekom.simple.ta.testdata.model.AbstractXLSIO
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/testdata/model/XLSWriter.java:[27,9] cannot find symbol
+  symbol:   class Cell
+  location: class de.telekom.simple.ta.testdata.model.XLSWriter
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/testdata/model/XLSWriter.java:[34,9] cannot find symbol
+  symbol:   class Row
+  location: class de.telekom.simple.ta.testdata.model.XLSWriter
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/testdata/model/XLSWriter.java:[39,9] cannot find symbol
+  symbol:   class Cell
+  location: class de.telekom.simple.ta.testdata.model.XLSWriter
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/testdata/model/XLSTestDataReader.java:[26,9] cannot find symbol
+  symbol:   class Row
+  location: class de.telekom.simple.ta.testdata.model.XLSTestDataReader
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/testdata/model/XLSTestDataReader.java:[30,13] cannot find symbol
+  symbol:   class Row
+  location: class de.telekom.simple.ta.testdata.model.XLSTestDataReader
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/testdata/model/XLSTestDataReader.java:[53,22] incompatible types: java.util.Map<java.lang.String,java.lang.String> cannot be converted to java.util.List<java.util.Map<java.lang.String,java.lang.String>>
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/testdata/model/XLSTestDataReader.java:[62,22] incompatible types: java.util.Map<java.lang.String,java.lang.String> cannot be converted to java.util.List<java.util.Map<java.lang.String,java.lang.String>>
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/testdata/model/XLSTestDataReader.java:[67,9] cannot find symbol
+  symbol:   class Row
+  location: class de.telekom.simple.ta.testdata.model.XLSTestDataReader
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/testdata/model/XLSTestDataReader.java:[69,9] cannot find symbol
+  symbol:   class Row
+  location: class de.telekom.simple.ta.testdata.model.XLSTestDataReader
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/testdata/model/XLSTestDataReader.java:[88,13] cannot find symbol
+  symbol:   class Cell
+  location: class de.telekom.simple.ta.testdata.model.XLSTestDataReader
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/utils/FileUtils.java:[126,23] cannot find symbol
+  symbol:   class ZipParameters
+  location: class de.telekom.simple.ta.utils.FileUtils
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/utils/FileUtils.java:[131,24] cannot find symbol
+  symbol:   class ZipParameters
+  location: class de.telekom.simple.ta.utils.FileUtils
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/utils/FileUtils.java:[137,13] cannot find symbol
+  symbol:   class ZipFile
+  location: class de.telekom.simple.ta.utils.FileUtils
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/utils/FileUtils.java:[137,32] cannot find symbol
+  symbol:   class ZipFile
+  location: class de.telekom.simple.ta.utils.FileUtils
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/utils/FileUtils.java:[149,23] cannot find symbol
+  symbol:   class ZipParameters
+  location: class de.telekom.simple.ta.utils.FileUtils
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/utils/FileUtils.java:[154,24] cannot find symbol
+  symbol:   class ZipParameters
+  location: class de.telekom.simple.ta.utils.FileUtils
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/utils/FileUtils.java:[160,13] cannot find symbol
+  symbol:   class ZipFile
+  location: class de.telekom.simple.ta.utils.FileUtils
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/utils/FileUtils.java:[160,32] cannot find symbol
+  symbol:   class ZipFile
+  location: class de.telekom.simple.ta.utils.FileUtils
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/utils/FileUtils.java:[172,9] cannot find symbol
+  symbol:   class AESEncrypterJCA
+  location: class de.telekom.simple.ta.utils.FileUtils
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/utils/FileUtils.java:[173,21] cannot find symbol
+  symbol:   class AESEncrypterJCA
+  location: class de.telekom.simple.ta.utils.FileUtils
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/utils/FileUtils.java:[174,9] cannot find symbol
+  symbol:   class AesZipFileEncrypter
+  location: class de.telekom.simple.ta.utils.FileUtils
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/utils/FileUtils.java:[174,40] cannot find symbol
+  symbol:   class AesZipFileEncrypter
+  location: class de.telekom.simple.ta.utils.FileUtils
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/utils/FileUtils.java:[192,9] cannot find symbol
+  symbol:   class ZipFile
+  location: class de.telekom.simple.ta.utils.FileUtils
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/utils/FileUtils.java:[192,28] cannot find symbol
+  symbol:   class ZipFile
+  location: class de.telekom.simple.ta.utils.FileUtils
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/utils/UserSetNumberPool.java:[54,17] cannot find symbol
+  symbol:   variable Assert
+  location: class de.telekom.simple.ta.utils.UserSetNumberPool
+[INFO] 90 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[ERROR] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  6.308 s
+[INFO] Finished at: 2026-11-08T01:55:51Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.13.0:compile (default-compile) on project QATestSoft: Compilation failure: Compilation failure: 
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/common/StringUtils.java:[9,64] package org.apache.commons.lang3 does not exist
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/common/XetaCommons.java:[9,24] package org.apache.log4j does not exist
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/common/XetaCommons.java:[10,24] package org.apache.log4j does not exist
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/common/XetaCommons.java:[11,28] package org.apache.log4j.xml does not exist
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/common/XetaCommons.java:[24,40] cannot find symbol
+[ERROR]   symbol:   class Level
+[ERROR]   location: class de.telekom.simple.ta.common.XetaCommons
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/testdata/Users.java:[12,18] package org.testng does not exist
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/testdata/model/AbstractXLSIO.java:[10,43] package org.apache.poi.openxml4j.exceptions does not exist
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/testdata/model/AbstractXLSIO.java:[11,35] package org.apache.poi.ss.usermodel does not exist
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/testdata/model/AbstractXLSIO.java:[12,35] package org.apache.poi.ss.usermodel does not exist
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/testdata/model/AbstractXLSIO.java:[13,35] package org.apache.poi.ss.usermodel does not exist
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/testdata/model/AbstractXLSIO.java:[14,35] package org.apache.poi.ss.usermodel does not exist
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/testdata/model/AbstractXLSIO.java:[15,35] package org.apache.poi.ss.usermodel does not exist
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/testdata/model/AbstractXLSIO.java:[16,35] package org.apache.poi.ss.usermodel does not exist
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/testdata/model/AbstractXLSIO.java:[17,35] package org.apache.poi.ss.usermodel does not exist
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/testdata/model/AbstractXLSIO.java:[18,35] package org.apache.poi.ss.usermodel does not exist
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/testdata/model/AbstractXLSIO.java:[24,15] cannot find symbol
+[ERROR]   symbol:   class Workbook
+[ERROR]   location: class de.telekom.simple.ta.testdata.model.AbstractXLSIO
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/testdata/model/AbstractXLSIO.java:[25,15] cannot find symbol
+[ERROR]   symbol:   class FormulaEvaluator
+[ERROR]   location: class de.telekom.simple.ta.testdata.model.AbstractXLSIO
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/testdata/model/AbstractXLSIO.java:[26,15] cannot find symbol
+[ERROR]   symbol:   class Sheet
+[ERROR]   location: class de.telekom.simple.ta.testdata.model.AbstractXLSIO
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/testdata/model/AbstractXLSIO.java:[35,41] cannot find symbol
+[ERROR]   symbol:   class Cell
+[ERROR]   location: class de.telekom.simple.ta.testdata.model.AbstractXLSIO
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/testdata/model/AbstractXLSIO.java:[63,35] cannot find symbol
+[ERROR]   symbol:   class Cell
+[ERROR]   location: class de.telekom.simple.ta.testdata.model.AbstractXLSIO
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/testdata/model/XLSWriter.java:[5,35] package org.apache.poi.ss.usermodel does not exist
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/testdata/model/XLSWriter.java:[6,35] package org.apache.poi.ss.usermodel does not exist
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/testdata/model/AbstractXLSIO.java:[146,15] cannot find symbol
+[ERROR]   symbol:   class Row
+[ERROR]   location: class de.telekom.simple.ta.testdata.model.AbstractXLSIO
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/testdata/model/AbstractXLSIO.java:[168,12] cannot find symbol
+[ERROR]   symbol:   class Sheet
+[ERROR]   location: class de.telekom.simple.ta.testdata.model.AbstractXLSIO
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/testdata/model/AbstractXLSIO.java:[172,12] cannot find symbol
+[ERROR]   symbol:   class Workbook
+[ERROR]   location: class de.telekom.simple.ta.testdata.model.AbstractXLSIO
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/testdata/model/XLSTestDataReader.java:[7,35] package org.apache.poi.ss.usermodel does not exist
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/testdata/model/XLSTestDataReader.java:[8,35] package org.apache.poi.ss.usermodel does not exist
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/testdata/model/XLSTestDataReader.java:[35,35] cannot find symbol
+[ERROR]   symbol:   class Row
+[ERROR]   location: class de.telekom.simple.ta.testdata.model.XLSTestDataReader
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/testdata/model/XLSTestDataReader.java:[35,45] cannot find symbol
+[ERROR]   symbol:   class Row
+[ERROR]   location: class de.telekom.simple.ta.testdata.model.XLSTestDataReader
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/utils/FileUtils.java:[18,25] package de.idyl.winzipaes does not exist
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/utils/FileUtils.java:[19,30] package de.idyl.winzipaes.impl does not exist
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/utils/FileUtils.java:[20,25] package net.lingala.zip4j does not exist
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/utils/FileUtils.java:[21,35] package net.lingala.zip4j.exception does not exist
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/utils/FileUtils.java:[22,31] package net.lingala.zip4j.model does not exist
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/utils/FileUtils.java:[25,59] package org.apache.commons.io does not exist
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/utils/FileUtils.java:[125,60] cannot find symbol
+[ERROR]   symbol:   class ZipException
+[ERROR]   location: class de.telekom.simple.ta.utils.FileUtils
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/utils/FileUtils.java:[129,39] cannot find symbol
+[ERROR]   symbol:   class ZipParameters
+[ERROR]   location: class de.telekom.simple.ta.utils.FileUtils
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/utils/FileUtils.java:[129,80] cannot find symbol
+[ERROR]   symbol:   class ZipException
+[ERROR]   location: class de.telekom.simple.ta.utils.FileUtils
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/utils/FileUtils.java:[148,67] cannot find symbol
+[ERROR]   symbol:   class ZipException
+[ERROR]   location: class de.telekom.simple.ta.utils.FileUtils
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/utils/FileUtils.java:[152,39] cannot find symbol
+[ERROR]   symbol:   class ZipParameters
+[ERROR]   location: class de.telekom.simple.ta.utils.FileUtils
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/utils/FileUtils.java:[152,87] cannot find symbol
+[ERROR]   symbol:   class ZipException
+[ERROR]   location: class de.telekom.simple.ta.utils.FileUtils
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/utils/FileUtils.java:[187,63] cannot find symbol
+[ERROR]   symbol:   class ZipException
+[ERROR]   location: class de.telekom.simple.ta.utils.FileUtils
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/utils/FileUtils.java:[191,76] cannot find symbol
+[ERROR]   symbol:   class ZipException
+[ERROR]   location: class de.telekom.simple.ta.utils.FileUtils
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/utils/UserSetNumberPool.java:[5,18] package org.testng does not exist
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/utils/UserSetNumberPool.java:[6,18] package org.testng does not exist
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/utils/UserSetNumberPool.java:[85,39] cannot find symbol
+[ERROR]   symbol:   class ITestContext
+[ERROR]   location: class de.telekom.simple.ta.utils.UserSetNumberPool
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/common/XetaCommons.java:[25,25] package org.apache.log4j does not exist
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/common/XetaCommons.java:[31,29] package org.apache.log4j does not exist
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/common/XetaCommons.java:[31,60] package org.apache.log4j does not exist
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/common/XetaCommons.java:[32,13] cannot find symbol
+[ERROR]   symbol:   class Level
+[ERROR]   location: class de.telekom.simple.ta.common.XetaCommons
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/common/XetaCommons.java:[32,26] cannot find symbol
+[ERROR]   symbol:   variable Level
+[ERROR]   location: class de.telekom.simple.ta.common.XetaCommons
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/common/XetaCommons.java:[52,17] cannot find symbol
+[ERROR]   symbol:   variable DOMConfigurator
+[ERROR]   location: class de.telekom.simple.ta.common.XetaCommons
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/common/XetaCommons.java:[54,17] cannot find symbol
+[ERROR]   symbol:   variable BasicConfigurator
+[ERROR]   location: class de.telekom.simple.ta.common.XetaCommons
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/testdata/Users.java:[94,13] cannot find symbol
+[ERROR]   symbol:   variable Assert
+[ERROR]   location: class de.telekom.simple.ta.testdata.Users
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/testdata/model/AbstractXLSIO.java:[41,25] cannot find symbol
+[ERROR]   symbol:   variable DateUtil
+[ERROR]   location: class de.telekom.simple.ta.testdata.model.AbstractXLSIO
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/testdata/model/AbstractXLSIO.java:[57,17] switch has both boolean values and a default label
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/testdata/model/AbstractXLSIO.java:[67,13] cannot find symbol
+[ERROR]   symbol:   class DataFormatter
+[ERROR]   location: class de.telekom.simple.ta.testdata.model.AbstractXLSIO
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/testdata/model/AbstractXLSIO.java:[67,38] cannot find symbol
+[ERROR]   symbol:   class DataFormatter
+[ERROR]   location: class de.telekom.simple.ta.testdata.model.AbstractXLSIO
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/testdata/model/AbstractXLSIO.java:[109,37] cannot find symbol
+[ERROR]   symbol:   variable WorkbookFactory
+[ERROR]   location: class de.telekom.simple.ta.testdata.model.AbstractXLSIO
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/testdata/model/AbstractXLSIO.java:[112,26] cannot find symbol
+[ERROR]   symbol:   class InvalidFormatException
+[ERROR]   location: class de.telekom.simple.ta.testdata.model.AbstractXLSIO
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/testdata/model/AbstractXLSIO.java:[131,33] cannot find symbol
+[ERROR]   symbol:   variable WorkbookFactory
+[ERROR]   location: class de.telekom.simple.ta.testdata.model.AbstractXLSIO
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/testdata/model/AbstractXLSIO.java:[134,22] cannot find symbol
+[ERROR]   symbol:   class InvalidFormatException
+[ERROR]   location: class de.telekom.simple.ta.testdata.model.AbstractXLSIO
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/testdata/model/AbstractXLSIO.java:[149,9] cannot find symbol
+[ERROR]   symbol:   class Row
+[ERROR]   location: class de.telekom.simple.ta.testdata.model.AbstractXLSIO
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/testdata/model/AbstractXLSIO.java:[150,9] cannot find symbol
+[ERROR]   symbol:   class Cell
+[ERROR]   location: class de.telekom.simple.ta.testdata.model.AbstractXLSIO
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/testdata/model/AbstractXLSIO.java:[155,34] cannot find symbol
+[ERROR]   symbol:   class Row
+[ERROR]   location: class de.telekom.simple.ta.testdata.model.AbstractXLSIO
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/testdata/model/XLSWriter.java:[27,9] cannot find symbol
+[ERROR]   symbol:   class Cell
+[ERROR]   location: class de.telekom.simple.ta.testdata.model.XLSWriter
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/testdata/model/XLSWriter.java:[34,9] cannot find symbol
+[ERROR]   symbol:   class Row
+[ERROR]   location: class de.telekom.simple.ta.testdata.model.XLSWriter
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/testdata/model/XLSWriter.java:[39,9] cannot find symbol
+[ERROR]   symbol:   class Cell
+[ERROR]   location: class de.telekom.simple.ta.testdata.model.XLSWriter
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/testdata/model/XLSTestDataReader.java:[26,9] cannot find symbol
+[ERROR]   symbol:   class Row
+[ERROR]   location: class de.telekom.simple.ta.testdata.model.XLSTestDataReader
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/testdata/model/XLSTestDataReader.java:[30,13] cannot find symbol
+[ERROR]   symbol:   class Row
+[ERROR]   location: class de.telekom.simple.ta.testdata.model.XLSTestDataReader
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/testdata/model/XLSTestDataReader.java:[53,22] incompatible types: java.util.Map<java.lang.String,java.lang.String> cannot be converted to java.util.List<java.util.Map<java.lang.String,java.lang.String>>
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/testdata/model/XLSTestDataReader.java:[62,22] incompatible types: java.util.Map<java.lang.String,java.lang.String> cannot be converted to java.util.List<java.util.Map<java.lang.String,java.lang.String>>
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/testdata/model/XLSTestDataReader.java:[67,9] cannot find symbol
+[ERROR]   symbol:   class Row
+[ERROR]   location: class de.telekom.simple.ta.testdata.model.XLSTestDataReader
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/testdata/model/XLSTestDataReader.java:[69,9] cannot find symbol
+[ERROR]   symbol:   class Row
+[ERROR]   location: class de.telekom.simple.ta.testdata.model.XLSTestDataReader
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/testdata/model/XLSTestDataReader.java:[88,13] cannot find symbol
+[ERROR]   symbol:   class Cell
+[ERROR]   location: class de.telekom.simple.ta.testdata.model.XLSTestDataReader
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/utils/FileUtils.java:[126,23] cannot find symbol
+[ERROR]   symbol:   class ZipParameters
+[ERROR]   location: class de.telekom.simple.ta.utils.FileUtils
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/utils/FileUtils.java:[131,24] cannot find symbol
+[ERROR]   symbol:   class ZipParameters
+[ERROR]   location: class de.telekom.simple.ta.utils.FileUtils
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/utils/FileUtils.java:[137,13] cannot find symbol
+[ERROR]   symbol:   class ZipFile
+[ERROR]   location: class de.telekom.simple.ta.utils.FileUtils
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/utils/FileUtils.java:[137,32] cannot find symbol
+[ERROR]   symbol:   class ZipFile
+[ERROR]   location: class de.telekom.simple.ta.utils.FileUtils
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/utils/FileUtils.java:[149,23] cannot find symbol
+[ERROR]   symbol:   class ZipParameters
+[ERROR]   location: class de.telekom.simple.ta.utils.FileUtils
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/utils/FileUtils.java:[154,24] cannot find symbol
+[ERROR]   symbol:   class ZipParameters
+[ERROR]   location: class de.telekom.simple.ta.utils.FileUtils
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/utils/FileUtils.java:[160,13] cannot find symbol
+[ERROR]   symbol:   class ZipFile
+[ERROR]   location: class de.telekom.simple.ta.utils.FileUtils
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/utils/FileUtils.java:[160,32] cannot find symbol
+[ERROR]   symbol:   class ZipFile
+[ERROR]   location: class de.telekom.simple.ta.utils.FileUtils
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/utils/FileUtils.java:[172,9] cannot find symbol
+[ERROR]   symbol:   class AESEncrypterJCA
+[ERROR]   location: class de.telekom.simple.ta.utils.FileUtils
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/utils/FileUtils.java:[173,21] cannot find symbol
+[ERROR]   symbol:   class AESEncrypterJCA
+[ERROR]   location: class de.telekom.simple.ta.utils.FileUtils
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/utils/FileUtils.java:[174,9] cannot find symbol
+[ERROR]   symbol:   class AesZipFileEncrypter
+[ERROR]   location: class de.telekom.simple.ta.utils.FileUtils
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/utils/FileUtils.java:[174,40] cannot find symbol
+[ERROR]   symbol:   class AesZipFileEncrypter
+[ERROR]   location: class de.telekom.simple.ta.utils.FileUtils
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/utils/FileUtils.java:[192,9] cannot find symbol
+[ERROR]   symbol:   class ZipFile
+[ERROR]   location: class de.telekom.simple.ta.utils.FileUtils
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/utils/FileUtils.java:[192,28] cannot find symbol
+[ERROR]   symbol:   class ZipFile
+[ERROR]   location: class de.telekom.simple.ta.utils.FileUtils
+[ERROR] /workspaces/QATestSoft/src/main/java/de/telekom/simple/ta/utils/UserSetNumberPool.java:[54,17] cannot find symbol
+[ERROR]   symbol:   variable Assert
+[ERROR]   location: class de.telekom.simple.ta.utils.UserSetNumberPool
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
