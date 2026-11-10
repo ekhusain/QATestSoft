@@ -27,6 +27,6 @@ public class UserWorkflowTest extends BaseTest {
 
         // 3. Валидация через универсальный TableComponent
         boolean isPresent = userPage.isUserPresentInTable("Admin");
-        assertTrue(isPresent, "Пользователь 'Admin' должен присутствовать в таблице после фильтрации");
+        assertTrue(isPresent, "User 'Admin' should be dispayed in the table after search");
     }
 }
